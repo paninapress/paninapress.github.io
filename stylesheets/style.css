@@ -1,0 +1,11 @@
+#contactSection, #aboutSection, #projectSection {
+  min-height: 700px;
+}
+
+#contactSection {
+  background-color: salmon;
+}
+
+#projectSection {
+  background-color: salmon;
+}
