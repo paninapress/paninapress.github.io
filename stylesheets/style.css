@@ -1,5 +1,5 @@
-#contactSection, #aboutSection, #projectSection {
-  min-height: 700px;
+#mainSection, #contactSection, #aboutSection, #projectSection {
+  min-height: 800px;
 }
 
 #contactSection {
@@ -12,4 +12,8 @@
 
 #contactSection a {
   color: #2a6496;
+}
+
+#headerImg {
+  height: 300px;
 }
