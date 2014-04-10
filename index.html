@@ -13,26 +13,24 @@
     <div class="col-md-1">
       <nav>
         <ul class="nav nav-stacked nav-pills">
+ 
           <li ng-click="mkActive('nav1')" ng-class="n1" data-target="#mainCarousel" data-slide-to="0"><a href="#">Projects</a></li>
-          <li ng-click="mkActive('nav2')" ng-class="n2" data-target="#mainCarousel" data-slide-to="1"><a href="#">About Me</a></li>
-          <li ng-click="mkActive('nav3')" ng-class="n3" data-target="#mainCarousel" data-slide-to="2"><a href="#">Contact</a></li>
+            <ul> <!-- links to individual projects -->
+              <li ng-class="n4" ng-hide="n4===hidden" data-target="#mainCarousel" data-slide-to="1"><a href="#">GiftEgg for birthdays</a></li>
+              <li ng-class="n4" ng-hide="n4===hidden" data-target="#mainCarousel" data-slide-to="2"><a href="#">USchool for bookmarks</a></li>
+              <li ng-class="n4" ng-hide="n4===hidden" data-target="#mainCarousel" data-slide-to="3"><a href="#">Acquaintly for contacts</a></li>
+            </ul>
+          <li ng-click="mkActive('nav2')" ng-class="n2" data-target="#mainCarousel" data-slide-to="4"><a href="#">About Me</a></li>
+          <li ng-click="mkActive('nav3')" ng-class="n3" data-target="#mainCarousel" data-slide-to="5"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div id="mainCarousel" class="col-md-11 carousel slide">
-        <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#mainCarousel" data-slide-to="1"></li>
-        <li data-target="#mainCarousel" data-slide-to="2"></li>
-      </ol>
       <!-- #mainCarousel slide content -->
       <div class="carousel-inner">
         <!-- mainCarousel nav -->
         <div class="item active">
-          <div class="carousel-caption">
-            <p>Here are some projects I've been working on. Click on any of them to learn more.</p>
-          </div>
+          <h1>Here are some projects I've been working on. Click on any of them to learn more.</h1>
           <div class="col-md-3 col-md-offset-2">
             <img src="images/catpic1.jpg">
             <h3>Project 1</h3>
@@ -50,16 +48,32 @@
           </div>
         </div>
         <div class="item">
+          <img src="images/catpic1.jpg">
+          <div class="carousel-caption"><h2>Project 1: GiftEgg</h2></div>
+        </div>
+        <div class="item">
           <img src="images/catpic2.png">
-          <div class="carousel-caption">bbbb</div>
+          <div class="carousel-caption"><h2>Project 2: USchool</h2></div>
+        </div>
+        <div class="item">
+          <img src="images/catpic1.jpg">
+          <div class="carousel-caption"><h2>Project 3: Acquaintly</h2></div>
+        </div>
+        <div class="item">
+          <img src="images/catpic2.png">
+          <div class="carousel-caption"><h2>About me</h2></div>
         </div>
         <div class="item">
           <img src="images/trekpic1.jpg">
-          <div class="carousel-caption">cccc</div>
+          <div class="carousel-caption">
+            <h2>Hire <a href="http://www.twitter.com/ninatocode" target="_blank">@NinaToCode</a></h2>
+          </div>
         </div>
       </div>
     </div>
   </div>
+<!-- *********  END STANDARD VIEW TOP SECTION ********* -->
+
   <div id="contactSection" class="row">
     <div class="col-md-8 col-md-offset-2">
       <h2>Hire <a href="http://www.twitter.com/ninatocode" target="_blank">@NinaToCode</a></h2>
