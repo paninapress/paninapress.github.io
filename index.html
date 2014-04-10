@@ -6,16 +6,16 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body ng-controller="mainCtrl">
 
 <div class="container-fluid">
   <div id="mainSection" class="row">
     <div class="col-md-1">
       <nav>
-        <ul class="nav nav-stacked nav-pills nav-indicators">
-          <li data-target="#mainCarousel" data-slide-to="0"><a href="#">Projects</a></li>
-          <li data-target="#mainCarousel" data-slide-to="1"><a href="#">About Me</a></li>
-          <li data-target="#mainCarousel" data-slide-to="2"><a href="#">Contact</a></li>
+        <ul class="nav nav-stacked nav-pills">
+          <li ng-click="mkActive('nav1')" ng-class="n1" data-target="#mainCarousel" data-slide-to="0"><a href="#">Projects</a></li>
+          <li ng-click="mkActive('nav2')" ng-class="n2" data-target="#mainCarousel" data-slide-to="1"><a href="#">About Me</a></li>
+          <li ng-click="mkActive('nav3')" ng-class="n3" data-target="#mainCarousel" data-slide-to="2"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </div>
