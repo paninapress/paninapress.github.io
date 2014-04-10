@@ -15,8 +15,6 @@
 }
 
 img {
-  min-width: 100%;
-}
-.col-md-3 img{
-  max-width: 100px;
+  min-width: 100%; /* makes images fill space */
+  max-width: 200px; /* to avoid overlapping images */
 }
