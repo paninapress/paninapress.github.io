@@ -36,8 +36,8 @@ img {
 }
 /* socialMedia normal state */
 #socialMedia ul li.github {
-  background:url(../images/GitHub-Mark-32px.png) no-repeat;
-  background-size: cover;
+  background:url(../images/GitHub-Mark-32px.png) center no-repeat;
+  background-size: 50px 50px;
 }
 #socialMedia ul li.linkedin {
   background-position:0px 64px;
@@ -51,8 +51,8 @@ img {
 
 /* socialMedia hover */
 #socialMedia ul li.github:hover {
-  background: url(../images/Octocat.png) no-repeat; 
-  background-size: cover;
+  background: url(../images/Octocat.png) center no-repeat; 
+  background-size: auto 50px;
 }
 
 #socialMedia ul li.linkedin:hover {
