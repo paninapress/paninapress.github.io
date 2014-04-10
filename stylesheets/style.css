@@ -18,3 +18,57 @@ img {
   min-width: 100%; /* makes images fill space */
   max-width: 200px; /* to avoid overlapping images */
 }
+
+#socialMedia ul li{
+ float: left; /* float the <li> elements inside #social-media element left */
+ background:url(../images/socialNav.png);
+ margin: 3px;
+
+ /* "Scott Kellum Method (2012)" for image replacement */
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+}
+#socialMedia ul li a {
+  display: block; /* to assign a width/height and create the "button" click area */
+  width:60px;
+  height:60px;
+}
+/* socialMedia normal state */
+#socialMedia ul li.github {
+  background:url(../images/Github-Mark-32px.png) no-repeat;
+  background-size: cover;
+}
+#socialMedia ul li.linkedin {
+  background-position:0px 64px;
+}
+#socialMedia ul li.twitter {
+  background-position:-60px 64px; 
+}
+#socialMedia ul li.facebook {
+  background-position:-120px 64px; 
+}
+#socialMedia ul li.blog {
+  background-position:-180px 64px; 
+}
+/* socialMedia hover */
+#socialMedia ul li.github:hover {
+  background: url(../images/Octocat.png) no-repeat; 
+  background-size: cover;
+}
+
+#socialMedia ul li.linkedin:hover {
+  background-position:0px 0px; 
+}
+
+#socialMedia ul li.twitter:hover {
+  background-position:-60px 0px; 
+}
+
+#socialMedia ul li.facebook:hover {
+  background-position:-120px 0px; 
+}
+
+#socialMedia ul li.blog:hover {
+  background-position:-180px 0px; 
+}
