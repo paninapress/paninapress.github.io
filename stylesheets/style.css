@@ -66,3 +66,7 @@ img {
 #socialMedia ul li.blog:hover {
   background-position:-180px 0px; 
 }
+
+.carousel-caption {
+  top: 0px;
+}
