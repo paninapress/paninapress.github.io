@@ -20,7 +20,7 @@ img {
 }
 
 #socialMedia ul li{
- float: left; /* float the <li> elements inside #social-media element left */
+ float: left; /* float the <li> elements inside #socialMedia element left */
  background:url(../images/socialNav.png);
  margin: 3px;
 
@@ -45,12 +45,10 @@ img {
 #socialMedia ul li.twitter {
   background-position:-60px 64px; 
 }
-#socialMedia ul li.facebook {
-  background-position:-120px 64px; 
-}
 #socialMedia ul li.blog {
   background-position:-180px 64px; 
 }
+
 /* socialMedia hover */
 #socialMedia ul li.github:hover {
   background: url(../images/Octocat.png) no-repeat; 
@@ -63,10 +61,6 @@ img {
 
 #socialMedia ul li.twitter:hover {
   background-position:-60px 0px; 
-}
-
-#socialMedia ul li.facebook:hover {
-  background-position:-120px 0px; 
 }
 
 #socialMedia ul li.blog:hover {
