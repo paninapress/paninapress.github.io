@@ -36,7 +36,7 @@ img {
 }
 /* socialMedia normal state */
 #socialMedia ul li.github {
-  background:url(../images/Github-Mark-32px.png) no-repeat;
+  background:url(../images/GitHub-Mark-32px.png) no-repeat;
   background-size: cover;
 }
 #socialMedia ul li.linkedin {
