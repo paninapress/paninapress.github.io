@@ -21,7 +21,7 @@ img {
 
 #socialMedia ul li{
  float: left; /* float the <li> elements inside #socialMedia element left */
- background:url(../images/socialNav.png);
+ background:url(images/socialNav.png);
  margin: 3px;
 
  /* "Scott Kellum Method (2012)" for image replacement */
@@ -36,7 +36,7 @@ img {
 }
 /* socialMedia normal state */
 #socialMedia ul li.github {
-  background:url(../images/Github-Mark-32px.png) no-repeat;
+  background:url(images/Github-Mark-32px.png) no-repeat;
   background-size: cover;
 }
 #socialMedia ul li.linkedin {
@@ -51,7 +51,7 @@ img {
 
 /* socialMedia hover */
 #socialMedia ul li.github:hover {
-  background: url(../images/Octocat.png) no-repeat; 
+  background: url(images/Octocat.png) no-repeat; 
   background-size: cover;
 }
 
