@@ -45,9 +45,9 @@ img {
 #socialMedia ul li.twitter {
   background-position:-60px 64px; 
 }
-#socialMedia ul li.blog {
+/*#socialMedia ul li.blog {
   background-position:-180px 64px; 
-}
+}*/
 
 /* socialMedia hover */
 #socialMedia ul li.github:hover {
@@ -63,9 +63,9 @@ img {
   background-position:-60px 0px; 
 }
 
-#socialMedia ul li.blog:hover {
+/*#socialMedia ul li.blog:hover {
   background-position:-180px 0px; 
-}
+}*/
 
 .carousel-caption {
   top: 0px;
