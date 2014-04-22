@@ -70,3 +70,10 @@ img {
 .carousel-caption {
   top: 0px;
 }
+
+.projectsNav li{
+  padding-left: 20px;
+}
+.navHighlight {
+  background-color: highlight;
+}

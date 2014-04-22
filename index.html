@@ -15,10 +15,10 @@
         <ul class="nav nav-stacked nav-pills">
  
           <li ng-click="mkActive('nav1')" ng-class="n1" data-target="#mainCarousel" data-slide-to="0"><a href="#">Projects</a></li>
-            <ul> <!-- links to individual projects -->
-              <li ng-class="n4" ng-hide="n4===hidden" data-target="#mainCarousel" data-slide-to="1"><a href="#">GiftEgg for birthdays</a></li>
-              <li ng-class="n4" ng-hide="n4===hidden" data-target="#mainCarousel" data-slide-to="2"><a href="#">USchool for bookmarks</a></li>
-              <li ng-class="n4" ng-hide="n4===hidden" data-target="#mainCarousel" data-slide-to="3"><a href="#">Acquaintly for contacts</a></li>
+            <ul class="nav nav-pills projectsNav" ng-class="n4" ng-hide="n4===hidden"> <!-- links to individual projects -->
+              <li ng-click='mkActive("nav5")' data-target="#mainCarousel" data-slide-to="1"><a ng-class="n5" href="#">GiftEgg for birthdays</a></li>
+              <li ng-click='mkActive("nav6")' data-target="#mainCarousel" data-slide-to="2"><a ng-class="n6" href="#">USchool for bookmarks</a></li>
+              <li ng-click='mkActive("nav7")' data-target="#mainCarousel" data-slide-to="3"><a ng-class="n7" href="#">Acquaintly for contacts</a></li>
             </ul>
           <li ng-click="mkActive('nav2')" ng-class="n2" data-target="#mainCarousel" data-slide-to="4"><a href="#">About Me</a></li>
           <li ng-click="mkActive('nav3')" ng-class="n3" data-target="#mainCarousel" data-slide-to="5"><a href="#">Contact</a></li>
