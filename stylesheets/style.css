@@ -77,3 +77,11 @@ img {
 .navHighlight {
   background-color: highlight;
 }
+.projectImgs img{
+  height: 300px;
+}
+#gifteggPartial {
+  height: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
