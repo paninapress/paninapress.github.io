@@ -79,9 +79,10 @@ img {
 }
 .projectImgs img{
   height: 300px;
+  border: 1px solid highlight;
 }
+
 #gifteggPartial {
-  height: 200px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  padding-bottom: 75px;
+  padding-top: 75px;
 }
