@@ -108,3 +108,7 @@ img {
   left: 0;
   right: 0;
 }
+#mainCarousel.col-md-11 {
+  padding-left: 0;
+  padding-right: 0;
+}
