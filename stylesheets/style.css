@@ -77,23 +77,34 @@ img {
 .navHighlight {
   background-color: highlight;
 }
-.projectImgs span{
+/*.projectImgs span{
+  height: 300px;
+  border: 1px solid highlight;
+}*/
+
+#gifteggImage {
+  background: url(../images/gifteggpartial.png) no-repeat;
+  background-size: contain;
+  background-position: center;
   height: 300px;
   border: 1px solid highlight;
 }
-
-#gifteggPartial {
-
-  padding-bottom: 75px;
-  padding-top: 75px;
-}
-#uschoolPartial {
+#uschoolImage {
   background: url(../images/uschoolcategoryselect.png) no-repeat;
-  background-size: cover;
-  height: 350px;
+  background-size: contain;
+  background-position: center;
+  height: 300px;
   border: 1px solid highlight;
 }
-#uschoolPartial:hover{
+#acquaintlyImage{
+  background: url(../images/catpic1.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 300px;
+  border: 1px solid highlight;
+}
+#gifteggImage:hover, #uschoolImage:hover, #acquaintlyImage:hover{
   background-image: url(../images/clickmeimage2.png);
+  background-size: cover;
   opacity:0.7;
 }
