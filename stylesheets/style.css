@@ -118,3 +118,8 @@ img {
 .resumebtn a{
   color: white;
 }
+.bg-greyed {
+  background-color: grey;
+  opacity:0.6;
+  border-radius: 40px;
+}
