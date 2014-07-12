@@ -17,7 +17,9 @@ img {
   min-width: 100%; /* makes images fill space */
   max-width: 200px; /* to avoid overlapping images */
 }
-
+#socialMedia {
+   top: 10px;
+}
 #socialMedia ul li{
  float: left; /* float the <li> elements inside #socialMedia element left */
  background:url(../images/socialNav.png);
@@ -106,4 +108,8 @@ img {
   background-color: grey;
   opacity:0.6;
   border-radius: 40px;
+}
+#titleborder {
+  top: 300px;
+  border: 6px solid black;
 }
