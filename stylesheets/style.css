@@ -101,8 +101,8 @@ img {
   padding-left: 0;
   padding-right: 0;
 }
-.resumebtn a{
-  color: white;
+.resumebtn {
+  background: highlight;
 }
 .bg-greyed {
   background-color: grey;

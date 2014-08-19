@@ -42,8 +42,18 @@
       </div>
     </div>
   <div id="contactSection" class="row">
-    <div class="col-md-8 col-md-offset-2">
-      
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <h1>Need a website built? Great! That's exactly why I'm available!</h1>
+        <div class="row">
+          <div class="col-md-2">
+            <button class="btn resumebtn">
+              <a href="documents/NinaPacificoResume2014.pdf" target="_blank">View My Resume</a>
+            </button>
+          </div>
+          <div class="col-md-10">
+            <h3>Connect with me through any of the social media icons above.</h3>
+          </div>
+        </div>
     </div>
   </div>
 
@@ -54,9 +64,70 @@
   </div>
   
   <div id="projectSection" class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <h2>My projects</h2>
+<!--     <div class="col-md-8 col-md-offset-2">
+      <h2>My projects</h2> -->
+
+    <div class="col-md-1">
+      <nav>
+        <ul class="nav nav-stacked nav-pills">
+ 
+          <li ng-click="mkActive('nav1')" ng-class="n1" data-target="#mainCarousel" data-slide-to="0"><a href="#">Projects</a></li>
+            <ul class="nav nav-pills projectsNav" ng-class="n4" ng-hide="n4===hidden"> <!-- links to individual projects -->
+              <li ng-click='mkActive("nav5")' data-target="#mainCarousel" data-slide-to="1"><a ng-class="n5" href="#">GiftEgg</a></li>
+              <li ng-click='mkActive("nav6")' data-target="#mainCarousel" data-slide-to="2"><a ng-class="n6" href="#">USchool</a></li>
+              <li ng-click='mkActive("nav7")' data-target="#mainCarousel" data-slide-to="3"><a ng-class="n7" href="#">Acquaintly</a></li>
+            </ul>
+          <li ng-click="mkActive('nav2')" ng-class="n2" data-target="#mainCarousel" data-slide-to="4"><a href="#">About Me</a></li>
+          <li ng-click="mkActive('nav3')" ng-class="n3" data-target="#mainCarousel" data-slide-to="5"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </div>
+    <div id="mainCarousel" class="col-md-11 carousel slide">
+      <!-- #mainCarousel slide content -->
+      <div class="carousel-inner">
+        <!-- mainCarousel nav -->
+        <div id="projectImgSlide" class="item active row">
+          <div class="col-md-12">
+            <h2 data-target="#mainCarousel" data-slide-to="5">Hire <a>@NinaToCode</a></h2>
+            <h2>Here are a few projects that I have created.</h2>
+            <h4 class="text-muted">(Click on an image to learn more.)</h4>
+            <div class="col-md-4">
+              <div id="gifteggImage" data-target="#mainCarousel" data-slide-to="1"></div>
+              <h3>GiftEgg</h3>
+              <h5>Remember birthdays without Facebook!</h5>
+              <p>A text message birthday reminder service with age-based gift recommendations coming soon!</p>
+              <p>Check it out: <a class="projectlinks" href="http://giftegg.herokuapp.com" target="_blank">giftegg.herokuapp.com</a></p>
+            </div>
+             <div class="col-md-4">
+              <div id="uschoolImage" data-target="#mainCarousel" data-slide-to="2"></div>
+              <h3>Uschool</h3>
+              <h5>A better place for your bookmarks!</h5>
+              <p>Build your own course for a unique way to share what/how you learn with others and provide a better way to manage your bookmarks.</p>
+              <p>Check it out: <a class="projectlinks" href="http://uschool.herokuapp.com/" target="_blank">uschool.herokuapp.com</a></p>
+            </div>
+             <div class="col-md-4">
+              <div id="acquaintlyImage" data-target="#mainCarousel" data-slide-to="3"></div>
+              <h3>Acquaintly</h3>
+              <h5>Get better acquainted with your contacts!</h5>
+              <p>Measure how well you stay in contact with all of your social connections so you can build better, more meaningful relationships.</p>
+              <p>Check it out: <a class="projectlinks" href="http://acquaintly.herokuapp.com" target="_blank">acquaintly.herokuapp.com</a></p>
+            </div>
+          </div>
+        </div> <!-- end of slide 0 -->
+        <div class="item">
+          <img src="images/catpic1.jpg">
+          <div class="carousel-caption"><h2>Project 1: GiftEgg</h2></div>
+        </div>
+        <div class="item">
+          <img src="images/catpic2.png">
+          <div class="carousel-caption"><h2>Project 2: USchool</h2></div>
+        </div>
+        <div class="item">
+          <img src="images/trekpic1.jpg">
+          <div class="carousel-caption"><h2>Project 3: Acquaintly</h2></div>
+        </div>
+      </div> <!-- end of carousel-inner -->
+    </div> <!-- end of #mainCarousel -->
   </div>
 </div><!-- end of container -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
