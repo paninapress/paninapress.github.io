@@ -13,12 +13,13 @@
 #contactSection a {
   color: #2a6496;
 }
-
 img {
   min-width: 100%; /* makes images fill space */
   max-width: 200px; /* to avoid overlapping images */
 }
-
+#socialMedia {
+   top: 10px;
+}
 #socialMedia ul li{
  float: left; /* float the <li> elements inside #socialMedia element left */
  background:url(../images/socialNav.png);
@@ -67,17 +68,6 @@ img {
   background-position:-180px 0px; 
 }*/
 
-.carousel-caption {
-  top: 0px;
-}
-
-.projectsNav li{
-  padding-left: 20px;
-}
-.navHighlight {
-  background-color: highlight;
-}
-
 #gifteggImage {
   background: white url(../images/gifteggpartial.png) no-repeat;
   background-size: contain;
@@ -104,10 +94,6 @@ img {
   background-size: cover;
   opacity:0.7;
 }
-#projectImgSlide .carousel-caption{
-  left: 0;
-  right: 0;
-}
 .projectlinks {
   color: pink;
 }
@@ -115,11 +101,15 @@ img {
   padding-left: 0;
   padding-right: 0;
 }
-.resumebtn a{
-  color: white;
+.resumebtn {
+  background: highlight;
 }
 .bg-greyed {
   background-color: grey;
   opacity:0.6;
   border-radius: 40px;
+}
+#titleborder {
+  top: 300px;
+  border: 6px solid black;
 }
