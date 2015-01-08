@@ -110,6 +110,12 @@ img {
   border-radius: 40px;
 }
 #titleborder {
-  top: 300px;
+  top: 250px;
   border: 6px solid black;
+}
+.hireMeBtn {
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
 }
