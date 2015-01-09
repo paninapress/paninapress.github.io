@@ -119,3 +119,63 @@ img {
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
 }
+
+/* Adding profile photo that looks like polaroid */
+.photo-border{
+  height: 200px;
+  width: 200px;
+  background: white;
+  border: 1px solid black;
+}
+.photo-border.pb-1{
+  padding-top: 2px;
+  width: 204px;
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+}
+.photo-border.pb-2{
+  padding-top: 2px;
+  padding-left: 2px;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+.photo-border.pb-3{
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+}
+.photo {
+  height: 120px;
+  width: 176px;
+  background: blue;
+  position: relative;
+  top: 15px;
+  left: 12px;
+}
+.paperclip{
+  position: relative;
+  top: -23px;
+  left: 10px;
+}
+.paperclip.outer{
+  height: 75px;
+  width: 20px;
+  background: transparent;
+  border: 3px solid grey;
+  border-radius: 20px;
+}
+.paperclip .inner{
+  height: 50px;
+  width: 10px;
+  background: transparent;
+  border: 3px solid grey;
+  border-radius: 20px;
+}
