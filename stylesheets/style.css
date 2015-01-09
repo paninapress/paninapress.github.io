@@ -169,7 +169,7 @@ img {
   height: 75px;
   width: 20px;
   background: transparent;
-  border: 3px solid grey;
+  border: 2px solid grey;
   border-radius: 20px;
 }
 .paperclip .inner{
@@ -178,4 +178,23 @@ img {
   background: transparent;
   border: 3px solid grey;
   border-radius: 20px;
+}
+
+/* Adding folder divs for projects */
+.folder{
+  height: 150px;
+  width: 230px;
+  background: beige;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+.folder-label{
+  background: beige;
+  height:25px;
+  width: 80px;
+  position:relative;
+  top: -22px;
+  float: right;  
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
 }
