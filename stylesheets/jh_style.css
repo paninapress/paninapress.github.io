@@ -1,0 +1,37 @@
+/*Styles for James' website*/
+
+.zoomInDown {
+	animation-duration: 1s;
+  	-webkit-animation-duration: 1s;
+}
+.zoomOut {
+	animation-duration: 1s;
+  	-webkit-animation-duration: 1s;
+}
+
+.contact_text {
+	margin-top: 37px;
+	margin-left: 10px;
+}
+.navbar {
+	min-height: 0;
+}
+.vid_box {
+	height: 600px;
+}
+.vid_box iframe{
+		min-width: 375px;
+		min-height: 210px;
+	}
+@media (min-width: 550px) and (max-width: 1350px){ 
+	.vid_box iframe{
+		min-width: 80%;
+		min-height: 72%;
+	}
+}
+@media (min-width: 1351px) {
+	.vid_box iframe{
+		min-width: 900px;
+		min-height: 505.8px;
+	}
+}
