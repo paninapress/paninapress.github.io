@@ -1,3 +1,123 @@
+/*   Contents   */
+/* 1. NAVIGATION */
+/* 2. Section CSS */
+/* 3. Temp Playground CSS */
+
+
+/* *************** 1. NAVIGATION **************** */
+.navigation{
+        display: none;;
+        height: 0;
+        background-color: #293d50;
+        color: white;
+}
+.nav{
+    height: 300px;
+}
+.nav li{
+    height: 33%;
+    padding: 42px 0 57px 0;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav > li > a:hover{
+    background-color: transparent;
+}
+.nav a {
+    color:white;
+}
+.nav a:hover{
+    color:rgb( 236, 94, 8 );
+}
+.navbar{
+    padding: 10px 15px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    border-radius: 0;
+}
+.navbar i {
+    float: left;
+    color: rgb( 236, 94, 8 );
+}
+.navbar span{
+    padding: 1px 0 0px 10px;
+    float: right;    
+    color: white;
+    font-size: 18px;
+}
+.page-wrapper{
+    position: relative;
+    z-index: 10;
+}
+.easeIn {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: easein;
+    -moz-animation-name: easein;
+    animation-name: easein;
+}
+@-webkit-keyframes easein {
+    from {
+        height: 0;
+    }
+    to {
+        height: 300px;
+    }
+}
+@-moz-keyframes easein {
+    from{
+        height: 0;
+    }
+    to {
+        height:300px;
+    }
+}
+@keyframes easein {
+    from {
+        height: 0;
+    }
+    to {
+        height: 300px;
+    }
+}
+.easeOut {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: easeout;
+    -moz-animation-name: easeout;
+    animation-name: easeout;
+}
+@-webkit-keyframes easeout {
+        from {
+            height: 300px;
+        }
+        to {
+            height: 0;
+        }
+}
+@-moz-keyframes easeout {
+        from {
+            height: 300px;
+        }
+        to {
+            height: 0;
+        }
+}
+@keyframes easeout {
+    from {
+        height: 300px;
+        }
+    to {
+        height: 0;
+    }
+}
+
+/* *************** 2. Sections **************** */
+
 #mainSection, #contactSection, #aboutSection, #projectSection {
   min-height: 800px;
 }
@@ -119,6 +239,8 @@ img {
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
 }
+
+/* *************** 3. Temp Playground CSS **************** */
 
 /* Adding profile photo that looks like polaroid */
 .photo-border{
