@@ -17,7 +17,7 @@
 .nav li{
     height: 33%;
     padding: 42px 0 57px 0;
-    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -29,21 +29,25 @@
 }
 .nav a:hover{
     color:rgb( 236, 94, 8 );
+    text-decoration: none;
 }
 .navbar{
-    padding: 10px 15px;
+    padding: 10px 45px;
     position: fixed;
     z-index: 10;
     width: 100%;
     border-radius: 0;
+    margin-left: -30px;
+    border: none;
+}
+.navbar a:hover{
+  text-decoration: none;
 }
 .navbar i {
-    float: left;
     color: rgb( 236, 94, 8 );
 }
 .navbar span{
-    padding: 1px 0 0px 10px;
-    float: right;    
+    padding: 1px 10px 0px 10px;   
     color: white;
     font-size: 18px;
 }
@@ -62,25 +66,37 @@
 @-webkit-keyframes easein {
     from {
         height: 0;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     to {
         height: 300px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @-moz-keyframes easein {
     from{
         height: 0;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     to {
         height:300px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @keyframes easein {
     from {
         height: 0;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     to {
         height: 300px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 .easeOut {
@@ -94,32 +110,54 @@
 @-webkit-keyframes easeout {
         from {
             height: 300px;
+            padding-left: 0;
+            padding-right: 0;
         }
         to {
             height: 0;
+            padding-left: 60px;
+            padding-right: 60px;
         }
 }
 @-moz-keyframes easeout {
         from {
             height: 300px;
+            padding-left: 0;
+            padding-right: 0;
         }
         to {
             height: 0;
+            padding-left: 60px;
+            padding-right: 60px;
         }
 }
 @keyframes easeout {
     from {
         height: 300px;
+        padding-left: 0;
+        padding-right: 0;
         }
     to {
         height: 0;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
 /* *************** 2. Sections **************** */
 
+body{
+  background: rgb(3, 72, 102);
+}
+a:hover{
+  text-decoration: none;
+}
+
 #mainSection, #contactSection, #aboutSection, #projectSection {
   min-height: 800px;
+  background-color: white;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 #contactSection {
