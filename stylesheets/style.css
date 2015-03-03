@@ -164,6 +164,14 @@ a:hover{
   background-color: salmon;
 }
 
+#contact-ribbon{
+  height: 145px;
+}
+#contact-ribbon h2 {
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
 #projectSection {
   background-color: salmon;
 }
@@ -176,10 +184,10 @@ img {
   max-width: 200px; /* to avoid overlapping images */
 }
 #socialMedia {
-   top: 10px;
+   top: 41px;
 }
 #socialMedia ul li{
- float: left; /* float the <li> elements inside #socialMedia element left */
+ float: right; /* float the <li> elements inside #socialMedia element right */
  background:url(../images/socialNav.png);
  margin: 3px;
 
