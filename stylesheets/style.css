@@ -285,7 +285,38 @@ img {
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
 }
+.checkMark{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding-top: 15px;
+}
+.checkMark span{
+  display: block;
+  background: #293d50;
+  height: 5px;
+}
+.checkpt1{
+  position: absolute;
+  width:11px;
+    -webkit-transform: rotate(45deg); /* Safari and Chrome */
+    -moz-transform: rotate(45deg);   /* Firefox */
+    -ms-transform: rotate(45deg);   /* IE 9 */
+    -o-transform: rotate(45deg);   /* Opera */
+    transform: rotate(45deg);
+}
+.checkpt2{
+  position: absolute;
+  top: -10px;
+  left: -4px;
+  width:20px;
 
+    -webkit-transform: rotate(70deg); /* Safari and Chrome */
+    -moz-transform: rotate(70deg);   /* Firefox */
+    -ms-transform: rotate(70deg);   /* IE 9 */
+    -o-transform: rotate(70deg);   /* Opera */
+    transform: rotate(70deg);
+}
 /* *************** 3. Temp Playground CSS **************** */
 
 /* Adding profile photo that looks like polaroid */
