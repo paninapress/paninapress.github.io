@@ -1,0 +1,123 @@
+            a {
+                color: rgb( 3, 72, 102 );
+            }
+            p{
+                font-weight: normal;
+            }
+            body {
+                font-family: "Avenir";
+                color: rgb( 3, 72, 102 );
+                position: relative;
+                font-weight: bold;
+            }
+            .nav ul {
+                width: 600px;
+                margin: 0 auto;
+            }
+            .nav > li > a {
+                padding-top: 15px;
+                font-family: "Helvetica Neue";
+                font-weight: normal;
+                color: white;
+            }
+            .nav > li.active > a, .nav > li.active > a:hover, .nav > li.active > a:focus {
+            color: rgb( 236, 94, 8 );
+            text-decoration: underline;
+            }
+            .nav > li > a:hover, .nav > li > a:focus {
+             text-decoration: underline;
+             background-color: transparent;
+             color: rgb( 236, 94, 8 );
+            }
+            .section-header {
+                padding-top: 55px;
+                padding-bottom: 25px;
+            }
+            #home-section{
+                min-height: 550px;
+                background: rgb( 3, 72, 102 ) url(../img/shutterstock_97040381.jpg) center no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            #home-section img{
+                padding: 75px 0;
+                width: 350px;
+                margin-bottom: 150px;
+            }
+/* add padding top/bottom to sections*/
+            #why-section, #what-section, #where-section, #how-section, #who-section, #learn-section{
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            #why-section p{
+                text-align: left;
+                margin-top: 30px;
+            }
+            #why-section p span{
+                font-weight: bold;
+            }
+            #what-section{
+                background-color: #f8f8f8;
+            }
+            #what-section img{
+                width:64%;
+            }
+            #what-section h2{
+                padding-top: 50px;
+            }
+            #what-section p span{
+                font-weight: bold;
+            }
+            #where-section h2{
+                padding-bottom: 40px;
+            }
+            .pic-row {
+                margin-bottom: 47px;
+            }
+            .pic1, .pic2, .pic3, .pic4{
+                border: 2px solid rgb(3, 72, 102);
+            }
+            .pic1.active, .pic2.active, .pic3.active, .pic4.active{
+                border: 2px solid orange;
+            }
+
+            .pic1{
+                background:url(../img/KatiaPetersonPhD.png) no-repeat;
+                background-size: cover;
+                width: 200px;
+                height: 200px;
+                border-radius: 500px;
+            }
+            .pic2{
+                background:url(../img/Headshot1.jpg) no-repeat;
+                background-size: cover;
+                width: 200px;
+                height: 200px;
+                border-radius: 500px;
+            }
+            .pic3{
+                background:url(../img/NickGogerty.png) no-repeat;
+                background-size: cover;
+                width: 200px;
+                height: 200px;
+                border-radius: 500px;
+            }
+            .pic4{
+                background:url(../img/PatriciaPattonPhD.png) no-repeat;
+                background-size: cover;
+                width: 200px;
+                height: 200px;
+                border-radius: 500px;
+            }
+            /*To start show only .bio-1*/
+            .bio-2,.bio-3,.bio04{
+                display: none;
+            }
+
+            /*TEMP MODAL CSS*/
+            .modal-header img {
+                width: 150px;
+            }
+            .modal-body a{
+                text-decoration: underline;
+            }
