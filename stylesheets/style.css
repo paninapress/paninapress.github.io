@@ -2,6 +2,7 @@
 /* 1. NAVIGATION */
 /* 2. Section CSS */
 /* 3. Temp Playground CSS */
+/* 4. Media Queries */
 
 
 /* *************** 1. NAVIGATION **************** */
@@ -159,7 +160,18 @@ a:hover{
   margin-right: 15px;
   margin-left: 15px;
 }
-
+.main-img-strip-1 {
+    background: url('../images/NinaPacifico.jpg') center, no-repeat;
+    height: 150px;
+    background-position-y: 436px;
+    margin-top: 50px;
+}
+.main-img-strip-2 {
+    background: url('../images/NinaPacifico.jpg') center, no-repeat;
+    height: 150px;
+    background-position-y: 215px;
+    margin-top: 50px;
+}
 #contactSection {
   background-color: salmon;
 }
@@ -179,10 +191,10 @@ a:hover{
 #contactSection a {
   color: #2a6496;
 }
-img {
-  min-width: 100%; /* makes images fill space */
-  max-width: 200px; /* to avoid overlapping images */
-}
+/*img {
+  min-width: 100%; *//* makes images fill space */
+  /*max-width: 200px;*/ /* to avoid overlapping images */
+/*}*/
 #socialMedia {
    top: 41px;
 }
@@ -276,7 +288,7 @@ img {
   border-radius: 40px;
 }
 #titleborder {
-  top: 250px;
+  margin-top: 50px;
   border: 6px solid black;
 }
 .hireMeBtn {
@@ -396,4 +408,18 @@ img {
   float: right;  
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
+}
+
+/* ********************** 4. Media Queries ************************ */
+@media (min-width: 970px) {
+  #mainSection .main-image {
+    background: url('../images/NinaPacifico.jpg') no-repeat bottom center;
+    min-height: 650px;
+  }
+  #titleborder {
+    margin-top: 250px;
+  }
+}
+@media (max-width: 970px) {
+
 }
