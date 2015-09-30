@@ -10,7 +10,7 @@
 .navigation{
         display: none;;
         height: 0;
-        background-color: #293d50;
+        background-color: rgb(3, 72, 102);
         color: white;
 }
 .nav{
@@ -34,13 +34,18 @@
     text-decoration: none;
 }
 .navbar{
-    padding: 10px 45px;
+    padding-right: 45px;
     position: fixed;
     z-index: 10;
     width: 100%;
     border-radius: 0;
+    margin-right: -15px;
     margin-left: -30px;
+    margin-bottom: -50px;
     border: none;
+}
+.navbar a {
+  padding-top: 10px;
 }
 .navbar a:hover{
   text-decoration: none;
@@ -52,6 +57,9 @@
     padding: 1px 10px 0px 10px;   
     color: white;
     font-size: 18px;
+}
+.navbar-row {
+  background-color: white;
 }
 .page-wrapper{
     position: relative;
@@ -146,6 +154,9 @@
     }
 }
 /* *************** 2. BODY STYLING **************** */
+/* Red color: rgb(178,8,62) */
+/* Blue color: rgb(3, 72, 102) */
+/* Orange color: rgb( 236, 94, 8 ) */
 body{
   background: rgb(3, 72, 102);
 }
@@ -163,8 +174,8 @@ h2 {
 }
 /* *************** 3. Sections **************** */
 #mainSection, #contactSection, #aboutSection, #projectSection {
-  min-height: 800px;
-  background-color: white;
+  min-height: 700px;
+  background-color: transparent;
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -289,7 +300,8 @@ h2 {
 }
 #titleborder {
   margin-top: 303px;
-  border: 6px solid black;
+  /* border: 6px solid black;*/
+  padding: 2px 0;
   background-color: rgba(3, 72, 102, .5);
 }
 .hireMeBtn {
@@ -297,6 +309,12 @@ h2 {
   -webkit-animation-duration: 1s;
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
+}
+.hireMeBtn a{
+    color: rgb(236, 94, 8);
+}
+.hireMeBtn a:hover{
+    color: white;
 }
 .checkMark{
   width: 20px;
@@ -425,5 +443,8 @@ h2 {
   }
   h2 {
     font-size: 30px;
+  }
+  .hireMeBtn a:hover{
+    color: rgb(178, 8, 62);
   }
 }
