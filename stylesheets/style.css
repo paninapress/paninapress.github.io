@@ -1,8 +1,9 @@
 /*   Contents   */
 /* 1. NAVIGATION */
-/* 2. Section CSS */
-/* 3. Temp Playground CSS */
-/* 4. Media Queries */
+/* 2. Body Styling */
+/* 3. Section CSS */
+/* 4. Temp Playground CSS */
+/* 5. Media Queries */
 
 
 /* *************** 1. NAVIGATION **************** */
@@ -144,33 +145,32 @@
         padding-right: 60px;
     }
 }
-
-/* *************** 2. Sections **************** */
-
+/* *************** 2. BODY STYLING **************** */
 body{
   background: rgb(3, 72, 102);
 }
 a:hover{
   text-decoration: none;
 }
-
+h1, h2 {
+  margin-top: 10px;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}
+/* *************** 3. Sections **************** */
 #mainSection, #contactSection, #aboutSection, #projectSection {
   min-height: 800px;
   background-color: white;
   margin-right: 15px;
   margin-left: 15px;
 }
-.main-img-strip-1 {
-    background: url('../images/NinaPacifico.jpg') center, no-repeat;
-    height: 150px;
-    background-position-y: 436px;
-    margin-top: 50px;
-}
-.main-img-strip-2 {
-    background: url('../images/NinaPacifico.jpg') center, no-repeat;
-    height: 150px;
-    background-position-y: 215px;
-    margin-top: 50px;
+.bg-image {
+  background: url('../images/NinaPacifico.jpg') no-repeat bottom center;
+  min-height: 650px;
 }
 #contactSection {
   background-color: salmon;
@@ -288,8 +288,9 @@ a:hover{
   border-radius: 40px;
 }
 #titleborder {
-  margin-top: 50px;
+  margin-top: 303px;
   border: 6px solid black;
+  background-color: rgba(3, 72, 102, .5);
 }
 .hireMeBtn {
   animation-duration: 1s;
@@ -329,7 +330,7 @@ a:hover{
     -o-transform: rotate(70deg);   /* Opera */
     transform: rotate(70deg);
 }
-/* *************** 3. Temp Playground CSS **************** */
+/* *************** 4. Temp Playground CSS **************** */
 
 /* Adding profile photo that looks like polaroid */
 .photo-border{
@@ -410,16 +411,19 @@ a:hover{
   border-top-left-radius: 4px;
 }
 
-/* ********************** 4. Media Queries ************************ */
+/* ********************** 5. Media Queries ************************ */
 @media (min-width: 970px) {
-  #mainSection .main-image {
-    background: url('../images/NinaPacifico.jpg') no-repeat bottom center;
-    min-height: 650px;
+  .bg-image.col-xs-12 {
+    background: white;
   }
   #titleborder {
-    margin-top: 250px;
+  margin-top: 250px;
+  background-color: transparent;
   }
-}
-@media (max-width: 970px) {
-
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 30px;
+  }
 }
