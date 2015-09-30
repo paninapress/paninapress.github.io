@@ -55,8 +55,8 @@
 }
 .navbar span{
     padding: 1px 10px 0px 10px;   
-    color: white;
-    font-size: 18px;
+    color: rgb( 236, 94, 8 );;
+    font-size: 37px;
 }
 .navbar-row {
   background-color: white;
@@ -179,7 +179,7 @@ h2 {
   margin-left: 15px;
 }
 .bg-image {
-  background: url('../images/NinaPacifico.jpg') no-repeat bottom center;
+  background: white url('../images/NinaPacifico.jpg') no-repeat bottom center;
   min-height: 650px;
 }
 
@@ -298,7 +298,8 @@ h2 {
   border-radius: 40px;
 }
 #titleborder {
-  margin-top: 303px;
+  max-width: 600px;
+  margin: 303px auto 0 auto;
   /* border: 6px solid black;*/
   padding: 2px 0;
   background-color: rgba(3, 72, 102, .5);
@@ -430,11 +431,24 @@ h2 {
 
 /* ********************** 5. Media Queries ************************ */
 @media (min-width: 992px) {
+  .navbar {
+    margin-left: -67px;
+  }
+  .navbar span {
+    font-size: 23px;
+  }
+  .fa-3x {
+    font-size: 2em;
+  }
+  #mainSection, #contactSection, #aboutSection, #projectSection {
+  margin-right: 30px;
+  margin-left: 30px;
+  }
   .bg-image.col-xs-12 {
     background: white;
   }
   #titleborder {
-  margin-top: 250px;
+  margin: 250px auto 0 auto;
   background-color: transparent;
   }
   h1 {
