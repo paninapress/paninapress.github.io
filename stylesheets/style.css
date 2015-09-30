@@ -429,7 +429,7 @@ h2 {
 }
 
 /* ********************** 5. Media Queries ************************ */
-@media (min-width: 970px) {
+@media (min-width: 992px) {
   .bg-image.col-xs-12 {
     background: white;
   }
