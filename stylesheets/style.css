@@ -160,7 +160,7 @@
 body{
   background: rgb(3, 72, 102);
 }
-a:hover{
+a:hover, a:focus{
   text-decoration: none;
 }
 h1, h2 {
@@ -179,7 +179,7 @@ h2 {
   margin-left: 15px;
 }
 .bg-image {
-  background: white url('../images/NinaPacifico.jpg') no-repeat bottom center;
+  background: url('../images/NinaPacifico.jpg') bottom center;
   min-height: 650px;
 }
 
@@ -430,19 +430,12 @@ h2 {
 }
 
 /* ********************** 5. Media Queries ************************ */
-@media (min-width: 992px) {
-  .navbar {
-    margin-left: -67px;
-  }
+@media only screen and (min-width: 992px) {
   .navbar span {
     font-size: 23px;
   }
   .fa-3x {
     font-size: 2em;
-  }
-  #mainSection, #contactSection, #aboutSection, #projectSection {
-  margin-right: 30px;
-  margin-left: 30px;
   }
   .bg-image.col-xs-12 {
     background: white;
