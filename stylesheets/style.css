@@ -81,8 +81,8 @@
     }
     to {
         height: 300px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 @-moz-keyframes easein {
@@ -93,8 +93,8 @@
     }
     to {
         height:300px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 @keyframes easein {
@@ -105,8 +105,8 @@
     }
     to {
         height: 300px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 .easeOut {
@@ -120,8 +120,8 @@
 @-webkit-keyframes easeout {
         from {
             height: 300px;
-            padding-left: 0;
-            padding-right: 0;
+            padding-left: 15px;
+            padding-right: 15px;
         }
         to {
             height: 0;
@@ -132,8 +132,8 @@
 @-moz-keyframes easeout {
         from {
             height: 300px;
-            padding-left: 0;
-            padding-right: 0;
+            padding-left: 15px;
+            padding-right: 15px;
         }
         to {
             height: 0;
@@ -144,8 +144,8 @@
 @keyframes easeout {
     from {
         height: 300px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
         }
     to {
         height: 0;
@@ -181,6 +181,7 @@ h2 {
 .bg-image {
   background: url('../images/NinaPacifico.jpg') bottom center;
   min-height: 650px;
+  margin-top: -12px;
 }
 
 #contact-ribbon{
@@ -436,6 +437,9 @@ h2 {
   }
   .fa-3x {
     font-size: 2em;
+  }
+  .bg-image {
+    margin-top: 0;
   }
   .bg-image.col-xs-12 {
     background: white;
